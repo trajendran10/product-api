@@ -15,7 +15,7 @@ output application/json
 {
   productName: "raj",
   productAge: "41",
-  productTech: "Mulesoft",
+  productTech: "Mule",
   productCertified: "Yes"
 } as Object {encoding: "UTF-8", mediaType: "application/json"}]]></ee:set-payload>
             </ee:message>
