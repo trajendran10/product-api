@@ -14,7 +14,7 @@ pipeline {
     }
     stage('Deployment') {
       steps {
-            bat 'mvn -U -V -e -B -DskipTests -Pdev deploy -DmuleDeploy'
+            bat 'mvn -U -V -e -B -DskipTests -Pdev deploy -DmuleDeploy -s C:\ProgramData\Jenkins\.m2\settings.xml'
       }
     }
   }
