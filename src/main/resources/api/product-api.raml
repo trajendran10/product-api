@@ -1,0 +1,20 @@
+#%RAML 1.0
+title: product-api
+version: v1
+baseUri: http://localhost:8081/products
+/productapi:
+  description: This is a product API
+  get:
+    description: This is the Get method for Product API
+    responses:
+      200:
+        body:
+          application/json:
+            example:
+              {
+                "productName": "raj",
+                "productAge": "41",
+                "productTech": "Mulesoft",
+                "productCertified": "Yes"
+              }
+        
